@@ -102,7 +102,7 @@ export default images;
 
 export const Icons_images = [
   {
-    href:"https://wa.me/07405560822",
+    href:"https://wa.me/+917405560822",
     image2: whatsapp,
   },
   {
@@ -127,6 +127,7 @@ import { FiUser } from "react-icons/fi";
 import { FiFlag } from "react-icons/fi";
 import { IoMoonOutline } from "react-icons/io5";
 import { MdOutlineAttachMoney } from "react-icons/md";
+import { MdOutlineCleaningServices } from "react-icons/md";
 
 export const Card = [
   {
@@ -159,7 +160,7 @@ export const Card = [
   },
   {
     id: 5,
-    icon: IoMoonOutline,
+    icon: MdOutlineCleaningServices,
     heading: "Professional Cleaning",
     paragraph:
       "Maximize your rental income with our professional cleaning services that keep properties in pristine condition.",

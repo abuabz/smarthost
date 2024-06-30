@@ -12,7 +12,7 @@ const Hero = () => {
       />
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4 space-y-3 ">
         <h1 className="text-4xl text-[#fff3d6] font-medium lg:text-6xl ">
-          Find Your Perfect <br /> Home
+          Find your ideal <br /> home team
         </h1>
         <h5 className="text-balance text-sm opacity-75">
           Discover the best real estate opportunities <br />
