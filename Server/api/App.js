@@ -11,11 +11,11 @@ app.use(
 );
 
 //route
-const contactForm = require("./Controllers/contactController");
+const contactForm = require("../Controllers/contactController");
 app.use("/api/v2", contactForm);
 
 //Error handling
-const ErrorHandler = require("./Utils/ErrorHandler");
+const ErrorHandler = require("../Utils/ErrorHandler");
 app.use(ErrorHandler);
 
 module.exports = app;
