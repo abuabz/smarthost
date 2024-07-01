@@ -13,6 +13,10 @@ if (process.env.NODE_ENV !== "PRODUCTION") {
   });
 }
 
+app.get('',(req,res)=>{
+  res.status(200).send({success:'success'})
+})
+
 //create server
 const server = app.listen(process.env.PORT, () =>
   console.log(`Server is running on http://localhost:${process.env.PORT}`)
