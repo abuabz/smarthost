@@ -13,7 +13,7 @@ const ContactUS = () => {
     e.preventDefault();
     setIsLoading(true);
     await axios
-      .post(`http://localhost:2000/api/v2/contact-form`, {
+      .post(`https://smarthost-ezew.vercel.app/api/v2/contact-form`, {
         firstName,
         lastName,
         email,
